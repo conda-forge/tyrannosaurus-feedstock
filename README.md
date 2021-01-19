@@ -9,17 +9,18 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tyrannosaurus-f
 
 Summary: Generate elegant, bleeding-edge, ready-to-use Python projects with seamless CI/CD, fit for 2021+.
 
+
 Development: https://github.com/dmyersturnbull/tyrannosaurus
 
-Documentation: https://tyrannosaurus.readthedocs.io/
+Documentation: https://tyrannosaurus.readthedocs.io
 
-An opinionated, forwards-looking Python template for 2021.
-Generate elegant, ready-to-use Python projects that have excellent continuous integration and deployment (CI/CD).
-Integrated with Dockerhub, Github Packages, Azure, Conda-Forge, and an array of linting, static analysis,
-security testing, documentation, dependency management, and CI/CD tools, including a custom tool to keep all
-duplicate project metadata sychronized to a single pyproject.toml. You only need to interact with your project via
-git, tyrannosaurus, and Github releases – all other integrations kick off from there.
-through those.
+An opinionated, forwards-looking Python template for 2021. Generate elegant, ready-to-use Python
+projects that have excellent continuous integration and deployment (CI/CD). Integrated with
+Docker Hub, Github Packages, Azure, Conda-Forge, and an array of linting, static analysis,
+security testing, documentation, dependency management, and CI/CD tools, including a custom tool
+to keep all duplicate project metadata synchronized to a single pyproject.toml. You only need to
+interact with your project via git, tyrannosaurus, and Github releases – all other integrations
+kick off from there.
 
 
 Current build status
