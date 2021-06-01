@@ -1,5 +1,5 @@
 {% set name = "tyrannosaurus" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tyrannosaurus-{{ version }}.tar.gz
-  sha256: d57c92c9c301680f81089d244bfd02f8a7e02665ffd4ecb240b4afd39e28c139
+  sha256: d3cb387f7b102a64fd57fad3d3f29606390b1ea9db663ee3e8d8e9bfaa10d2d6
 
 build:
   number: 0
