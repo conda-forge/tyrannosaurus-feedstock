@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tyrannosaurus-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tyrannosaurus-{{ version }}.tar.gz
   sha256: d3cb387f7b102a64fd57fad3d3f29606390b1ea9db663ee3e8d8e9bfaa10d2d6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - tyrannosaurus = tyrannosaurus.cli:cli
@@ -20,10 +20,10 @@ requirements:
   host:
     - pip >=20
     - poetry >=1.1,<2
-    - python >=3.8,<4
+    - python {{ python_min }}
   run:
     - grayskull >=0.8.4,<1
-    - python >=3.8,<4
+    - python >={{ python_min }},<4
     - requests >=2.24,<3
     - tomlkit >=0.7,<1
     - typer >=0.3,<1
@@ -37,6 +37,7 @@ test:
   requires:
     - pip >=20
     - poetry >=1.1,<2
+    - python {{ python_min }}
 
 about:
   home: https://github.com/dmyersturnbull/tyrannosaurus
